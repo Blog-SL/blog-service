@@ -30,3 +30,5 @@ app.use("/api/v1", blogRoutes);
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
+
+console.log("ENV:", process.env.PORT);
