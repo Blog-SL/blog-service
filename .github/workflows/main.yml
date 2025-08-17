@@ -48,8 +48,8 @@ jobs:
 
           # ✅ Create .env specific for blog-service
           cat > .env <<EOL
-          PORT=${{ secrets.BLOG_PORT }}
-          DB_URL=${{ secrets.BLOG_DB_URL }}
+          PORT=${{ secrets.PORT }}
+          DB_URL=${{ secrets.DB_URL }}
           USER_SERVICE=${{ secrets.USER_SERVICE }}
           REDIS_URL=${{ secrets.REDIS_URL }}
           Rabbimq_Host=${{ secrets.Rabbimq_Host }}
