@@ -52,9 +52,9 @@ jobs:
           DB_URL=${{ secrets.BLOG_DB_URL }}
           USER_SERVICE=${{ secrets.USER_SERVICE }}
           REDIS_URL=${{ secrets.REDIS_URL }}
-          Rabbimq_Host=${{ secrets.RABBITMQ_HOST }}
-          Rabbimq_Username=${{ secrets.RABBITMQ_USERNAME }}
-          Rabbimq_Password=${{ secrets.RABBITMQ_PASSWORD }}
+          Rabbimq_Host=${{ secrets.Rabbimq_Host }}
+          Rabbimq_Username=${{ secrets.Rabbimq_Username }}
+          Rabbimq_Password=${{ secrets.Rabbimq_Password }}
           JWT_SEC=${{ secrets.JWT_SEC }}
           EOL
 
