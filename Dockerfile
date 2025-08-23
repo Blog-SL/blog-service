@@ -41,7 +41,7 @@
 # # expose port
 # EXPOSE 5002
 
-# # Define the default command to run your app in production mode
+## # Define the default command to run your app in production mode
 # CMD ["npm", "start"]
 
 #==============deployment=================
